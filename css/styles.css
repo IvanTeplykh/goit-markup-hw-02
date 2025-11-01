@@ -34,26 +34,34 @@ header a:focus,  header a:hover {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .studio:active {
     text-decoration: underline;
 }
-.addres {
+.address {
     font-style: normal;
 }
-
+.mail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .main_first_section {
     background-color: #2E2F42;
 }
 .main_first_section h1 {
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: white;
 }
 .main_first_section .button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -62,7 +70,7 @@ header a:focus,  header a:hover {
     border: none;
     cursor: pointer;
 }
-.main_first_section .button:hover {
+.button:hover {
     background-color: #404BBF;
 }
 .main_second_section ul {
