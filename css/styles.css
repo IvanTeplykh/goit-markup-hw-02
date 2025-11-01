@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455; 
+    background-color: #FFFFFF;
 }
 header{
     background-color: white;
@@ -12,23 +13,35 @@ header a {
     text-decoration: none;
     color: currentColor;
 }
-header a:hover {
+header a:focus,  header a:hover {
     color: #404BBF;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+.accent {
+    color: #2e2f42;
+}
+.studio {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .studio:active {
     text-decoration: underline;
 }
-.logo {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
+.addres {
+    font-style: normal;
 }
-.accent {
-    color: #4D5AE5;
-}
+
 .main_first_section {
     background-color: #2E2F42;
 }
