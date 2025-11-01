@@ -70,7 +70,7 @@ header a:focus,  header a:hover {
     border: none;
     cursor: pointer;
 }
-.button:hover {
+.button:hover, .button:focus  {
     background-color: #404BBF;
 }
 .main_second_section ul {
