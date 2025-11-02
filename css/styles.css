@@ -124,7 +124,10 @@ footer {
     color: #F4F4FD;
 }
 footer .logo {
-    color: currentColor;
+    color: #4d5ae5;
+}
+.accent_footer {
+    color: #f4f4fd;
 }
 footer p {
     color: currentColor;
