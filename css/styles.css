@@ -93,9 +93,11 @@ p {
     background-color: #F4F4FD;
     text-align: center;
 }
+.main_third_section_li {
+    background-color: #FFFFFF;
+}
 .main_third_section ul {
     list-style-type: none;
-    background-color: #FFFFFF;
 }
 .main_third_section p {
     font-size: 16px;
